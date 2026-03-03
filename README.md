@@ -10,5 +10,15 @@ install.packages("remotes")
 # Install OncoPrint++
 remotes::install_github("abbvie-external/OncoPrintP")
 
+# Dependencies
+OncoPrint++ relies on several R packages that will be automatically installed:
+
+shiny
+shinybusy
+tools
+readxl
+data.table
+DT
+
 # License
 This package is licensed under the MIT License - see the LICENSE file for details.
